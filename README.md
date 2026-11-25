@@ -4,8 +4,7 @@ Projeto da disciplina **SIN 393 – Introdução à Visão Computacional (2026)*
 
 **Integrantes:** Hugo Resende Babos 9858 e Lucas Santos de Freitas 9859
 
-**Vídeo de apresentação:** [COLOCAR AQUI O LINK DO YOUTUBE]
-
+**Vídeo de apresentação:** (https://youtu.be/n6B2MegzfB0)
 ## Descrição
 
 Classificação de imagens de ressonância magnética (RM) cerebral em quatro classes (`glioma_tumor`, `meningioma_tumor`, `pituitary_tumor` e `normal`) com CNNs do torchvision, em PyTorch.
