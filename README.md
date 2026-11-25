@@ -31,7 +31,7 @@ Classificação de imagens de ressonância magnética (RM) cerebral em quatro cl
 ### Google Colab (recomendado)
 
 1. Abra `SIN393_brain_tumor_classification_adamw_es.ipynb` no Colab e ative a GPU (*Ambiente de execução > Alterar tipo > GPU*).
-2. Baixe o dataset no Kaggle, aplique a limpeza de duplicatas e envie-o ao Google Drive (`.zip`); o notebook monta o Drive e extrai o arquivo no disco local do Colab.
+2. Baixe o dataset (de preferência a versão limpa) e envie-o ao Google Drive (`.zip`). O notebook monta o Drive e extrai o arquivo no disco local do Colab.
 3. Ajuste o caminho do `.zip` e `DATA_DIR` (seção 2 do notebook) para a pasta que contém diretamente as pastas das classes.
 4. Execute as células em ordem. Dica: teste antes com `EPOCHS = 2`.
 
@@ -54,7 +54,7 @@ Avaliação no conjunto de teste (424 imagens). O artigo completo está em `arti
 | EfficientNet-B0 + augmentation | **0,9646** | **0,9705** | **0,9646** |
 | EfficientNet-B0 sem augmentation | 0,9410 | 0,9469 | 0,9409 |
 
-A principal confusão ocorre entre glioma e meningioma; as classes `normal` e `pituitary_tumor` são as mais fáceis.
+A principal confusão ocorre entre glioma e meningioma. As classes `normal` e `pituitary_tumor` são as mais fáceis.
 
 ## Limitações
 
