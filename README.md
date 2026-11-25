@@ -45,7 +45,7 @@ jupyter notebook SIN393_brain_tumor_classification_adamw_es.ipynb   # remova as 
 
 ## Resultados
 
-Avaliação no conjunto de teste (424 imagens). O artigo completo está em `artigo_tumores_cerebrais.pdf`.
+Avaliação no conjunto de teste (424 imagens). O artigo completo está em `Artigo Classificação de Tumores Cerebrais.pdf`.
 
 | Configuração | Acurácia | F1 macro | F1 weighted |
 |---|---|---|---|
